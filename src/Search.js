@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Greeting from "./Greeting";
+import "./styles.css";
 
 export default function Search(props) {
   let [city, setCity] = useState("");
@@ -38,7 +39,7 @@ export default function Search(props) {
   }
 
   return (
-    <div>
+    <div class="Search">
       <form className="search-form" onSubmit={handleSubmit}>
         <input
           type="text"

@@ -1,4 +1,23 @@
 .WeatherApp {
   font-family: sans-serif;
   margin-left: 80px;
+
+}
+
+.WeatherApp h1{
+  margin-left: 100px;
+}
+
+.WeatherApp footer {
+  font-size: 11px;
+}
+
+.Search {
+  border: 1px solid grey;
+  border-radius: 15px;
+  max-width: 600px;
+  padding: 30px;
+  margin: 20px 200px 10px 0px;
+  color: rgb(135, 135, 135);
+  line-height: ;
 }
